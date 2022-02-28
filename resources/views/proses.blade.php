@@ -33,15 +33,15 @@
                                 <td>{{ $data->nama }}</td>
                             </tr>
                             <tr>
-                                <td>Alamat</td>
+                                <td>NRP</td>
                                 <td>{{ $data->nrp }}</td>
                             </tr>
                             <tr>
-                                <td>Asal Sekolah</td>
+                                <td>Departemen</td>
                                 <td>{{ $data->departemen }}</td>
                             </tr>
                             <tr>
-                                <td>Rata-Rata Rapot</td>
+                                <td>Nilai PBKK</td>
                                 <td>{{number_format($data->ipk, 2)}}</td>
                             </tr>
                             <tr>
