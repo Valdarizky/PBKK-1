@@ -46,7 +46,7 @@
                                 <input type="text" class="form-control" id="departemen" name="departemen" value="{{ old('departemen') }}">
                             </div>
                             <div class="form-group">
-                                <label for="ipk">Nilai IPK</label>
+                                <label for="ipk">Nilai PBKK</label>
                                 <input type="text" class="form-control" id="ipk" name="ipk" value="{{ old('ipk') }}">
                             </div>
 
