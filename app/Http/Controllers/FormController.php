@@ -26,7 +26,7 @@ class FormController extends Controller
         'nrp' => 'required|numeric',
         'departemen' => 'required',
         'gambar' => 'required|mimes:jpg,jpeg,png|max:2048',
-        'ipk' => 'required|numeric|min:1.0|max:4.0',
+        'nilai PBKK' => 'required|numeric|min:2.50|max:99.99',
     ], $Error);
 
     $filename=time().".".$request->gambar->extension();
